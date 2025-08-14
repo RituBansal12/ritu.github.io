@@ -221,6 +221,93 @@ a { color: inherit; text-decoration: none; }
   border-radius: 999px;
 }
 
+/* Blogs: horizontal scroll + uniform cards */
+.blogs-scroll {
+  --blogs-h: 480px;
+  overflow-x: auto;
+  margin-top: 0.75rem;
+  padding-bottom: 0.25rem;
+  -webkit-overflow-scrolling: touch;
+  height: var(--blogs-h);
+  overflow-y: hidden;
+  width: 100%;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff transparent;
+  position: relative;
+}
+.blogs-scroll::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to left, color-mix(in oklab, var(--bg) 96%, transparent) 0%, transparent 100%);
+}
+.blogs-track {
+  display: flex;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  align-items: stretch;
+  height: 100%;
+}
+.blog-card {
+  scroll-snap-align: start;
+  height: 100%;
+  flex: 0 0 calc((100% - 2rem) / 3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.blog-card h3 {
+  margin: 0 0 0.35rem;
+  line-height: 1.25;
+  min-height: calc(1.25em * 3);
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-card .meta {
+  margin: 0 0 0.45rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog-card p.excerpt {
+  margin: 0 0 0.6rem;
+  display: -webkit-box;
+  line-clamp: 5;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-card .card-actions { margin-top: 0; margin-bottom: 0.6rem; }
+.blog-card .tags { margin-top: auto; }
+
+/* Responsive: 2 cards per view */
+@media (max-width: 900px) {
+  .blog-card { flex-basis: calc((100% - 1rem) / 2); }
+}
+/* Responsive: 1 card per view */
+@media (max-width: 600px) {
+  .blog-card { flex-basis: 100%; }
+}
+
+/* Custom scrollbar for blogs (WebKit) */
+.blogs-scroll::-webkit-scrollbar { height: 10px; }
+.blogs-scroll::-webkit-scrollbar-track {
+  background: color-mix(in oklab, var(--bg) 90%, transparent);
+  border-radius: 999px;
+}
+.blogs-scroll::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 999px;
+}
+
 /* Footer */
 .site-footer { padding: 2rem 0; border-top: 1px solid var(--border); background: color-mix(in oklab, var(--bg) 92%, transparent); }
 .site-footer p { margin: 0; color: var(--muted); }

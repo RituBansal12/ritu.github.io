@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "slug": "the-emotional-landscape-of-the-internet",
+      "title": "The Emotional Landscape of the Internet: What I learnt from 200M social media posts",
+      "displayDate": "June 2025",
+      "date": "2025-06-20",
+      "excerpt": "I analyze 200M posts across X, Reddit, BlueSky, and more to map topics, daily sentiment rhythms, and the polarized shape of online discourse.",
+      "tags": ["NLP", "Social Media", "Sentiment Analysis"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/the-emotional-landscape-of-the-internet-what-i-learnt-from-analyzing-200-million-social-media-4761e29b7104"
+    },
+    {
+      "slug": "why-is-everyone-going-to-japan",
+      "title": "Why Is Everyone Going to Japan?",
+      "displayDate": "July 2025",
+      "date": "2025-07-20",
+      "excerpt": "I analyze travel signals and public data to unpack Japan’s tourism surge—what’s driving it and whether the boom is a short‑term spike or permanent shift.",
+      "tags": ["Statistics", "Travel Analytics", "Data Visualization"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/why-is-everyone-going-to-japan-34815b9b7247"
+    },
+    {
+      "slug": "causal-questions-in-a-correlational-world-going-beyond-rcts",
+      "title": "Causal Questions in a Correlational World: Going beyond RCTs",
+      "displayDate": "August 2025",
+      "date": "2025-08-05",
+      "excerpt": "Using BRFSS 2023 data and Propensity Score Matching, I estimate the causal impact of regular exercise on mental health and outline a practical, pitfalls‑aware PSM workflow.",
+      "tags": ["Causal Inference", "Propensity Score Matching", "Statistics"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/causal-questions-in-a-correlational-world-going-beyond-rcts-ace0f0b72c6d"
+    },
+    {
+      "slug": "causal-questions-in-a-correlation-world-part-ii-measuring-how-much-and-for-whom",
+      "title": "Causal Questions in a Correlation World, Part II: Measuring How Much and for Whom",
+      "displayDate": "August 2025",
+      "date": "2025-08-12",
+      "excerpt": "Moving beyond PSM, I use Inverse Probability Weighting to estimate dose–response and explore treatment‑effect heterogeneity—who benefits most and by how much.",
+      "tags": ["Causal Inference", "Inverse Probability Weighting", "Heterogeneous Effects"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/causal-questions-in-a-correlation-world-part-ii-measuring-how-much-and-for-whom-076009895f14"
+    },
+    {
+      "slug": "forecasting-fashion-using-data-science-to-decode-a-century-of-vogue-history",
+      "title": "Forecasting Fashion: Using Data Science to Decode a Century of Vogue History",
+      "displayDate": "July 2025",
+      "date": "2025-07-06",
+      "excerpt": "Applying computer vision and NLP to 90+ years of Vogue covers to quantify trend cycles, brand mentions, and how fashion attributes rise, fall, and return.",
+      "tags": ["Computer Vision", "Time Series Analysis", "Fashion Forecasting"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/forecasting-fashion-using-data-science-to-decode-a-century-of-vogue-history-06e00ef27782"
+    }
+  ]
+}
