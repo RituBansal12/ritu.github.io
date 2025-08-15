@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', async () => {
+  try { console.log('blogs.js version: repo-btn-1'); } catch (e) {}
   const container = document.getElementById('blog-cards');
   if (!container) return;
 
   try {
-    const res = await fetch('posts/posts.json', { cache: 'no-store' });
+    const res = await fetch('posts/posts.json?v=repo-btn-1', { cache: 'no-store' });
     if (!res.ok) throw new Error('Failed to load posts manifest');
     const data = await res.json();
     const posts = Array.isArray(data.posts) ? data.posts : [];
@@ -31,6 +32,15 @@ document.addEventListener('DOMContentLoaded', async () => {
           mediumBtn.rel = 'noopener';
           mediumBtn.textContent = 'Read on Medium';
           actions.appendChild(mediumBtn);
+        }
+        if (post.repoUrl) {
+          const repoBtn = document.createElement('a');
+          repoBtn.className = 'btn primary small';
+          repoBtn.href = post.repoUrl;
+          repoBtn.target = '_blank';
+          repoBtn.rel = 'noopener';
+          repoBtn.textContent = 'GitHub Repository';
+          actions.appendChild(repoBtn);
         }
 
         const title = document.createElement('h3');

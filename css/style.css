@@ -94,6 +94,12 @@ a { color: inherit; text-decoration: none; }
   /* Adjust this to shift the crop if needed: X% Y% */
   object-position: 50% 35%;
 }
+/* Fallback for browsers without aspect-ratio support */
+@supports not (aspect-ratio: 1 / 1) {
+  .avatar { position: relative; height: auto; }
+  .avatar::before { content: ""; display: block; padding-top: 100%; }
+  .avatar-img { position: absolute; inset: 0; width: 100%; height: 100%; }
+}
 .actions { margin-top: 1.25rem; display: flex; gap: 0.75rem; flex-wrap: wrap; }
 
 /* Experience */
@@ -252,6 +258,12 @@ a { color: inherit; text-decoration: none; }
   scroll-snap-type: x mandatory;
   align-items: stretch;
   height: 100%;
+}
+/* Ensure horizontal layout even if class selector is missed */
+#blog-cards {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
 }
 .blog-card {
   scroll-snap-align: start;
