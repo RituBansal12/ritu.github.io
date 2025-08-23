@@ -49,6 +49,16 @@
       "tags": ["Computer Vision", "Time Series Analysis", "Fashion Forecasting"],
       "sourceUrl": "https://medium.com/@ritu.bansalrb00/forecasting-fashion-using-data-science-to-decode-a-century-of-vogue-history-06e00ef27782",
       "repoUrl": "https://github.com/RituBansal12/vogue_cv_nlp"
+    },
+    {
+      "slug": "timing-is-everything-survival-analysis-when-question",
+      "title": "Timing Is Everything: How Survival Analysis Answers the ‘When’ Question",
+      "displayDate": "August 2025",
+      "date": "2025-08-22",
+      "excerpt": "I use IMDb TV series data to show how survival analysis answers the when question—estimating time‑to‑event with Kaplan–Meier, Log‑Rank tests, Cox PH, and parametric models, plus validation and practical caveats.",
+      "tags": ["Survival Analysis", "Proportional Hazards", "Time-to-Event Modeling"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/timing-is-everything-how-survival-analysis-answers-the-when-question-562d773accf4",
+      "repoUrl": "https://github.com/RituBansal12/survival_analysis_imdb"
     }
   ]
 }
