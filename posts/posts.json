@@ -59,6 +59,17 @@
       "tags": ["Survival Analysis", "Proportional Hazards", "Time-to-Event Modeling"],
       "sourceUrl": "https://medium.com/@ritu.bansalrb00/timing-is-everything-how-survival-analysis-answers-the-when-question-562d773accf4",
       "repoUrl": "https://github.com/RituBansal12/survival_analysis_imdb"
+    },
+    {
+      "slug": "turning-clickstreams-into-strategy-a-markov-chain-view-of-e-commerce-decisions",
+      "title": "Turning Clickstreams into Strategy: A Markov Chain View of E-commerce Decisions",
+      "displayDate": "September 2025",
+      "date": "2025-09-14",
+      "excerpt": "I use Markov chain models on RetailRocket clickstreams to highlight key touchpoints and optimize e-commerce user journeys.",
+      "tags": ["Markov Chain", "E-commerce Analytics", "Clickstream Modeling"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/turning-clickstreams-into-strategy-a-markov-chain-view-of-e-commerce-decisions-a653fa86af5d",
+      "repoUrl": "https://github.com/RituBansal12/markov_chain_ecom"
     }
   ]
 }
+
