@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "can-we-predict-randomness-climate-risk-monte-carlo",
+      "title": "Can We Predict Randomness? Modeling Climate Risk with Monte Carlo Simulations",
+      "displayDate": "October 2025",
+      "date": "2025-10-04",
+      "excerpt": "I apply Monte Carlo simulations to model climate risk, exploring how we can quantify uncertainty in climate projections and make better decisions in the face of environmental uncertainty.",
+      "tags": ["Monte Carlo", "Climate Modeling", "Risk Analysis"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/can-we-predict-randomness-modeling-climate-risk-with-monte-carlo-simulations-8c02e3a0a8b5",
+      "repoUrl": "https://github.com/RituBansal12/monte_carlo_climate_risk"
+    },
+    {
       "slug": "the-emotional-landscape-of-the-internet",
       "title": "The Emotional Landscape of the Internet: What I learnt from 200M social media posts",
       "displayDate": "June 2025",
