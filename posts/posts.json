@@ -71,14 +71,14 @@
       "repoUrl": "https://github.com/RituBansal12/survival_analysis_imdb"
     },
     {
-      "slug": "turning-clickstreams-into-strategy-a-markov-chain-view-of-e-commerce-decisions",
-      "title": "Turning Clickstreams into Strategy: A Markov Chain View of E-commerce Decisions",
-      "displayDate": "September 2025",
-      "date": "2025-09-14",
-      "excerpt": "I use Markov chain models on RetailRocket clickstreams to highlight key touchpoints and optimize e-commerce user journeys.",
-      "tags": ["Markov Chain", "E-commerce Analytics", "Clickstream Modeling"],
-      "sourceUrl": "https://medium.com/@ritu.bansalrb00/turning-clickstreams-into-strategy-a-markov-chain-view-of-e-commerce-decisions-a653fa86af5d",
-      "repoUrl": "https://github.com/RituBansal12/markov_chain_ecom"
+      "slug": "forecasting-the-future-time-series-analysis-with-sarimax-and-volatility-modeling",
+      "title": "Forecasting the Future: Time Series Analysis with SARIMAX and Volatility Modeling",
+      "displayDate": "November 2025",
+      "date": "2025-11-16",
+      "excerpt": "I use SARIMAX and GARCH models to forecast time series data, exploring the impact of exogenous variables and capturing volatility patterns.",
+      "tags": ["Time Series Analysis", "SARIMAX", "Volatility Modeling"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/forecasting-the-future-time-series-analysis-with-sarimax-and-volatility-modeling-e0f403e97392",
+      "repoUrl": "https://github.com/RituBansal12/time-series-modelling"
     }
   ]
 }
