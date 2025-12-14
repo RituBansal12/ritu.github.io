@@ -89,7 +89,18 @@
       "tags": ["Markov Chain", "Customer Journey", "E-commerce"],
       "sourceUrl": "https://medium.com/@ritu.bansalrb00/turning-clickstreams-into-strategy-a-markov-chain-view-of-e-commerce-decisions-a653fa86af5d",
       "repoUrl": "https://github.com/RituBansal12/markov_chain_ecom"
+    },
+    {
+      "slug": "pca-vs-sparse-pca-a-practical-guide-to-interpretable-dimensionality-reduction",
+      "title": "PCA vs Sparse PCA: A Practical Guide to Interpretable Dimensionality Reduction",
+      "displayDate": "December 2025",
+      "date": "2025-12-14",
+      "excerpt": "I explore the trade-offs between PCA and Sparse PCA in dimensionality reduction, highlighting their strengths and weaknesses.",
+      "tags": ["Dimensionality Reduction", "PCA", "Sparse PCA"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/pca-vs-sparse-pca-a-practical-guide-to-interpretable-dimensionality-reduction-775760461ad0",
+      "repoUrl": "https://github.com/RituBansal12/pca_exploration"
     }
+
   ]
 }
 
