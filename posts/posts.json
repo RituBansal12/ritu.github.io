@@ -79,6 +79,16 @@
       "tags": ["Time Series Analysis", "SARIMAX", "Volatility Modeling"],
       "sourceUrl": "https://medium.com/@ritu.bansalrb00/forecasting-the-future-time-series-analysis-with-sarimax-and-volatility-modeling-e0f403e97392",
       "repoUrl": "https://github.com/RituBansal12/time-series-modelling"
+    },
+    {
+      "slug": "turning-clickstreams-into-strategy-a-markov-chain-view-of-e-commerce-decisions",
+      "title": "Turning Clickstreams into Strategy: A Markov Chain View of E-commerce Decisions",
+      "displayDate": "September 2025",
+      "date": "2025-09-14",
+      "excerpt": "I use Markov chains to analyze clickstream data to predict user behavior on e-commerce platforms.",
+      "tags": ["Markov Chain", "Customer Journey", "E-commerce"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/turning-clickstreams-into-strategy-a-markov-chain-view-of-e-commerce-decisions-a653fa86af5d",
+      "repoUrl": "https://github.com/RituBansal12/markov_chain_ecom"
     }
   ]
 }
