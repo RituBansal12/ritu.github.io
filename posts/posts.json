@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "a-conceptual-understanding-of-why-attention-is-all-you-need",
+      "title": "A Conceptual Understanding Of Why Attention Is All You Need",
+      "displayDate": "January 2026",
+      "date": "2026-01-03",
+      "excerpt": "I break down the key concepts behind the 'Attention is All You Need' paper, explaining how the Transformer architecture revolutionized language modelling and why attention mechanisms are so powerful.",
+      "tags": ["LLMs", "Transformers", "NLP", "Attention Mechanism"],
+      "sourceUrl": "https://medium.com/@ritu.bansalrb00/a-conceptual-understanding-of-why-attention-is-all-you-need-271cd5d056c9"
+    },
+    {
       "slug": "can-we-predict-randomness-climate-risk-monte-carlo",
       "title": "Can We Predict Randomness? Modeling Climate Risk with Monte Carlo Simulations",
       "displayDate": "October 2025",
